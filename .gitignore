@@ -1,0 +1,4 @@
+vendor
+credentials/credentials.json
+composer.lock
+logs/file.log

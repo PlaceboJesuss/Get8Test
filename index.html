@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="ru">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Тестовое задание Get8</title>
+    <link rel="stylesheet" href="styles.css">
+    <script src="https://code.jquery.com/jquery-3.5.1.min.js"></script>
+    <script src="https://unpkg.com/imask"></script>
+</head>
+
+<body>
+    <div class="form-container">
+        <form id="test-form">
+            <div class="input-container">
+                <label for="email">Email</label>
+                <input type="text" name="email" id="email" placeholder="Email">
+            </div>
+            <div class="input-container">
+                <label for="phone">Телефон</label>
+                <input type="text" name="phone" id="phone">
+            </div>
+            <div class="input-container">
+                <label for="name">Имя</label>
+                <input type="text" name="name" id="name" placeholder="Имя">
+            </div>
+            <div class="input-container">
+                <input type="submit" class="submit" value="Отправить">
+            </div>
+            <div class="message-container" hidden></div>
+        </form>
+    </div>
+    <script src="script.js"></script>
+</body>
+
+</html>
